@@ -1,0 +1,23 @@
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+
+  .event-logo {
+    width: 100%;
+    max-width: 300px;
+    height: inherit;
+  }
+
+  .event-date {
+    flex: 1 100%;
+    margin: $gutter / 2 0 $gutter;
+    text-align: center;
+  }
+
+  .event-cta-button {
+    @extend %solid-button;
+    background-color: $primary;
+  }
+}

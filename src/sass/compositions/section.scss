@@ -1,0 +1,39 @@
+.section-container {
+  @extend %section-gutter;
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+}
+
+.section-opacity {
+  width: 100%;
+  height: 100%;
+  background-color: rgba($black, .6);
+}
+
+.section-call-out {
+  @extend %call-out;
+  text-align: center;
+}
+
+.dark-background {
+  background-color: $black;
+  color: $white;
+}
+
+.hue-background {
+  background-color: $primary;
+  color: $white;
+}
+
+.image-background {
+  background-attachment: fixed;
+  background-color: $black;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: $white;
+  text-align: center;
+}
