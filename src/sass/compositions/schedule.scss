@@ -1,0 +1,85 @@
+.schedule {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.schedule-subhead {
+  margin: 0 auto 2rem;
+}
+
+.event-day {
+  margin: 1.5rem 0 .75rem;
+  color: $black;
+  font-family: $head-font;
+  font-size: 24px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.disclaimer {
+  font-size: 10px;
+}
+
+// Schedule Panels
+.panel-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: $white;
+}
+
+// Merriweather:300,400,700|Montserrat:400,700
+.panel {
+  flex-basis: 100%;
+  margin: .5rem 0;
+  padding: 1.5rem 2rem;
+  border-radius: 3px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  box-shadow: 0 2px 5px rgba($black, .3);
+
+  &:nth-child(odd) {
+    background-color: $secondary500;
+  }
+
+  &:nth-child(even) {
+    background-color: $secondary300;
+  }
+
+  &.break {
+    background-color: $secondary200;
+  }
+
+  span {
+    display: block;
+    margin-top: .5rem;
+    font-size: 14px;
+
+    &.disclaimer {
+      display: inline-block;
+    }
+  }
+}
+
+.talk-title {
+  margin: 0;
+  font-size: 20px;
+  text-shadow: 0 1px 1px rgba($black, .4);
+}
+
+.talk-speaker {
+  margin: .5rem 0 0;
+  font-size: 18px;
+  font-weight: 400;
+  text-shadow: 0 1px 1px rgba($black, .4);
+}
+
+@media all and (min-width: 37.5rem) { // min-width: 600px
+  .breakout-panel {
+    display: flex;
+    flex-basis: 32%;
+    align-items: center;
+  }
+}
