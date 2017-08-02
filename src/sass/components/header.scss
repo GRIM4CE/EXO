@@ -1,7 +1,8 @@
 .top-header {
   position: relative;
   padding: 0 $gutter;
-  background-color: $header-color;
+  background-color: $black;
+  color: $white;
   z-index: 10;
 }
 
@@ -21,7 +22,7 @@
   padding: 1rem;
   transition: transform 1s;
   border-top: 1px solid $white;
-  background-color: $header-color;
+  background-color: $black;
   z-index: 9;
 
   &[data-state='inactive'] {
@@ -35,6 +36,14 @@
   ul {
     margin: 0;
     padding: 0;
+  }
+
+  a {
+    color: $white;
+
+    &:hover {
+      color: $primary500;
+    }
   }
 
   .hs-menu-item {
@@ -52,7 +61,7 @@
   transform: translateY(-50%);
 
   &:active {
-    color: $primary-light;
+    color: $primary200;
   }
 
   i {

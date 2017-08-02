@@ -2,6 +2,66 @@
   color: $white;
 
   &:hover {
-    color: $primary;
+    color: $primary500;
   }
 }
+
+
+//.newsletter-form {
+//   label {
+//     display: block;
+//     margin-bottom: .5rem;
+//   }
+//
+//   h3 {
+//     @extend %sub-heading;
+//     text-align: center;
+//   }
+//
+//   .hs_email > label {
+//     display: none;
+//     border: 0;
+//   }
+//
+//   input {
+//     width: 100%;
+//     margin-bottom: $gutter;
+//     padding: .5rem 1.5rem;
+//     border: 1px solid $light-gray;
+//     border-radius: 25px;
+//     font-size: 18px;
+//
+//     &.error,
+//     &.invalid {
+//       margin-bottom: .5rem;
+//     }
+//
+//     &:placeholder-shown {
+//       color: $gray;
+//       font-size: 18px;
+//     }
+//   }
+//
+//   input[type="email"] {
+//     width: 100%;
+//     max-width: 1000px;
+//     margin-top: 1rem;
+//
+//     &.error {
+//       border: 2px solid $primary500;
+//     }
+//   }
+//
+//   input[type="submit"] {
+//     @extend %outline-button;
+//     width: 100%;
+//     max-width: 1000px;
+//   }
+//
+//   .hs-error-msgs {
+//     margin: $gutter / 2 0 $gutter * 1.5;
+//     padding: 0;
+//     color: $white;
+//     text-align: center;
+//   }
+// }

@@ -6,12 +6,13 @@
 @import 'elements/links';
 @import 'elements/buttons';
 @import 'elements/forms';
+@import 'elements/blog';
 
 @import 'components/header';
 @import 'components/video';
 @import 'components/upcoming-event';
 @import 'components/event-detail';
-@import 'components/newsletter-form';
+@import 'components/blog-social-media';
 
 @import 'compositions/hero';
 @import 'compositions/section';
@@ -19,4 +20,4 @@
 @import 'compositions/schedule';
 @import 'compositions/footer';
 
-//@import 'grid';
+@import 'pages/blog';
